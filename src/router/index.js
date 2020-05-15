@@ -40,11 +40,6 @@ const routes = [
         component: () => import('@/views/admin/community')
       },
       {
-        name: 'accuse',
-        path: 'accuse',
-        component: () => import('@/views/admin/accuse')
-      },
-      {
         name: 'password',
         path: 'password',
         component: () => import('@/views/admin/password')

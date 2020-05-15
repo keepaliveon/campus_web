@@ -4,7 +4,6 @@
       <el-menu mode="horizontal" :router="true" default-active="1">
         <el-menu-item index="1" route="/admin/group">板块管理</el-menu-item>
         <el-menu-item index="2" route="/admin/community">社团管理</el-menu-item>
-        <el-menu-item index="3" route="/admin/accuse">举报管理</el-menu-item>
         <el-submenu index="5">
           <template slot="title">{{ username }}</template>
           <el-menu-item index="5-1" route="/admin/password">修改密码</el-menu-item>
